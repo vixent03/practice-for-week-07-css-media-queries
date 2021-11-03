@@ -21,15 +21,15 @@ to add __media queries__ to the CSS.
 ## Phase 1: Layout adjustments
 
 Here are the designer's mockups for various screen sizes. What's already
-implemented covers the narrow and extremely narrow cases.
+implemented covers the extremely narrow and narrow cases.
 
-Please implement the "moderate", "wide" and "extremely wide" cases. The narrow
-option is for 820 pixels or less; and wide, for 1220 pixels or greater.
+Please implement the "moderate" and "wide" cases. The moderate
+option is for more than 820 pixels and the wide option is for 1220 pixels or more.
 
 > Note: The following images are scaled down to fit into the instructions.
 > You can right click and select "Open Image in New Tab" to see them full-size.
 
-### Extremely Narrow
+### Extremely Narrow (already implemented)
 
 Only the header is included because the rest of the page is the same as narrow.
 
@@ -39,7 +39,7 @@ Only the header is included because the rest of the page is the same as narrow.
      style="border: solid grey 4px"
 />
 
-### Narrow
+### Narrow (already implemented)
 
 <img src="https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/practice-media-queries/narrow.png"
      width="185"
@@ -47,7 +47,7 @@ Only the header is included because the rest of the page is the same as narrow.
      style="border: solid grey 4px"
 />
 
-### Moderate
+### Moderate (your code)
 
 <img src="https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/practice-media-queries/moderate.png"
      width="293"
@@ -55,7 +55,7 @@ Only the header is included because the rest of the page is the same as narrow.
      style="border: solid grey 4px"
 />
 
-### Wide
+### Wide (your code)
 
 <img src="https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/practice-media-queries/wide.png"
      width="382"
