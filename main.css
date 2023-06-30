@@ -124,6 +124,18 @@ header {
 
 /* ===== PRINTING ===== */
 
+@media print {
+    header,
+    .sidebar,
+    .image-box {
+        display: none;
+    }
+    .story-box {
+        background-color: #ffff;
+        color: black;
+    }
+}
+
 
 /* Phase 2 */
 
